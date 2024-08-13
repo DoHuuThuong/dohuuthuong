@@ -1,0 +1,93 @@
+/* background */
+.stButton button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.stButton button:hover {
+    background-color: #45a049;
+}
+
+.stTextInput input, .stTextArea textarea {
+    border: 2px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.stTextInput input:focus, .stTextArea textarea:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+.stSelectbox div {
+    font-size: 16px;
+}
+.css-1d391kg {
+        font-size: 24px;
+        color: #4CAF50;
+        font-weight: bold;
+    }
+
+    /* Tùy chỉnh menu dropdown */
+    .css-1w2a1fh {
+        background-color: #f1f1f1;
+        color: #333;
+        font-size: 18px;
+    }
+
+    /* Tùy chỉnh các tùy chọn trong dropdown */
+    .css-2trqyj:hover {
+        background-color: #4CAF50;
+        color: white;
+    }
+
+
+/* Styling for the "Menu" label */
+.stRadio > label {
+    font-size: 35px; /* Increase font size */
+    font-weight: bold; /* Make it bold */
+    color: #333; /* Dark color */
+    margin-bottom: 15px; /* Add more space below */
+}
+
+
+.stRadio div[role="radiogroup"] {
+    background-color: #f7f7f7;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+}
+
+.stRadio div[role="radiogroup"] label {
+    background-color: white;
+    padding: 8px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    display: block;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.stRadio div[role="radiogroup"] label:hover {
+    background-color: #ececec;
+}
+
+.stRadio div[role="radiogroup"] .stRadio:hover input[type="radio"]:checked+div>label {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.stRadio div[role="radiogroup"] input[type="radio"]:checked+div>label {
+    background-color: #FF6F61;
+    color: white;
+}
+
+.stRadio div[role="radiogroup"] input[type="radio"] {
+    display: none;
+}
+

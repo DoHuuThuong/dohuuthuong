@@ -1,0 +1,72 @@
+/* background */
+.stButton button {
+    background-color: #007BFF; /* Change to blue */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.stButton button:hover {
+    background-color: #0056b3; /* Darker blue for hover */
+}
+
+.stTextInput input, .stTextArea textarea {
+    border: 2px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.stTextInput input:focus, .stTextArea textarea:focus {
+    border-color: #007BFF; /* Blue border for focus */
+    outline: none;
+}
+
+.stSelectbox div {
+    font-size: 16px;
+}
+
+/* Styling for the "Menu" label */
+.stRadio > label {
+    font-size: 35px; /* Increase font size */
+    font-weight: bold; /* Make it bold */
+    color: #333; /* Dark color */
+    margin-bottom: 15px; /* Add more space below */
+}
+
+.stRadio div[role="radiogroup"] {
+    background-color: #f7f7f7;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+}
+
+.stRadio div[role="radiogroup"] label {
+    background-color: white;
+    padding: 8px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    display: block;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.stRadio div[role="radiogroup"] label:hover {
+    background-color: #dce9f9; /* Light blue for hover */
+}
+
+.stRadio div[role="radiogroup"] .stRadio:hover input[type="radio"]:checked+div>label {
+    background-color: #007BFF; /* Blue when selected */
+    color: white;
+}
+
+.stRadio div[role="radiogroup"] input[type="radio"]:checked+div>label {
+    background-color: #0056b3; /* Darker blue when checked */
+    color: white;
+}
+
+.stRadio div[role="radiogroup"] input[type="radio"] {
+    display: none;
+}
